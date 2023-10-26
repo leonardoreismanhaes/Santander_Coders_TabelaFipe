@@ -1,0 +1,27 @@
+[0m19:49:08.848990 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024985CB0190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002498A5ED2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002498A584510>]}
+
+
+============================== 19:49:08.856987 | 67962f37-1060-41ee-9931-29ae8947a9b4 ==============================
+[0m19:49:08.856987 [info ] [MainThread]: Running with dbt=1.6.5
+[0m19:49:08.858990 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\marco\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init aula_08', 'send_anonymous_usage_stats': 'True'}
+[0m19:49:08.864987 [debug] [MainThread]: Starter project path: C:\Users\marco\AppData\Local\Programs\Python\Python311\Lib\site-packages\dbt\include\starter_project
+[0m19:49:08.917989 [info ] [MainThread]: 
+Your new dbt project "aula_08" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:49:08.922991 [info ] [MainThread]: Setting up your profile.
+[0m19:49:16.773742 [debug] [MainThread]: Command `dbt init` succeeded at 19:49:16.773742 after 8.06 seconds
+[0m19:49:16.774743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002498A833250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249855E37D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000249855F2410>]}
+[0m19:49:16.775740 [debug] [MainThread]: Flushing usage events
